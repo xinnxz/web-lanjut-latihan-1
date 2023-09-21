@@ -4,10 +4,10 @@ document.getElementById("checkGuess").addEventListener("click", function () {
     const gameResultElement = document.getElementById("gameResult");
 
     if (guessedNumber === randomNumber) {
-        gameResultElement.innerText = "Wihh,, bener cuyy  " + randomNumber;
+        gameResultElement.innerText = "Wihh,, bener cuyy, jawabannya " + randomNumber;
         gameResultElement.style.color = "green";
     } else {
-        gameResultElement.innerText = "Yaahh,, salah :)" + randomNumber;
+        gameResultElement.innerText = "Yaahh,, salah :), jawaban yang bener " + randomNumber;
         gameResultElement.style.color = "red";
     }
 
