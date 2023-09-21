@@ -7,7 +7,7 @@ document.getElementById("checkGuess").addEventListener("click", function () {
         gameResultElement.innerText = "Wihh,, bener cuyy  " + randomNumber;
         gameResultElement.style.color = "green";
     } else {
-        gameResultElement.innerText = "Yaahh,, salah :)" + randomNumber;
+        gameResultElement.innerText = "Yaahh,, salah :) \n Yang Benar Adalah " + randomNumber;
         gameResultElement.style.color = "red";
     }
 
